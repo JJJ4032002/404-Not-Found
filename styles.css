@@ -60,6 +60,7 @@ button {
   p {
     font-size: 1.2em;
     width: 45%;
+    font-family: var(--fontMono);
   }
 
   .divItems {
