@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 #text {
-  margin: 2em auto;
+  margin: 2em 0;
 }
 
 #text > * {
@@ -53,13 +53,13 @@ button {
 @media (min-width: 500px) {
   .container {
     width: 95%;
-    gap: 3em;
+    gap: 5em;
     display: flex;
     align-items: center;
   }
   p {
     font-size: 1.2em;
-    width: 45%;
+    width: 50%;
     font-family: var(--fontMono);
   }
 
@@ -71,5 +71,6 @@ button {
   }
   #text {
     text-align: left;
+    width: 55%;
   }
 }
